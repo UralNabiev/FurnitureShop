@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AFAFFA442B9355F0006881EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA432B9355F0006881EC /* AppDelegate.swift */; };
-		AFAFFA462B9355F0006881EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA452B9355F0006881EC /* SceneDelegate.swift */; };
-		AFAFFA482B9355F0006881EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA472B9355F0006881EC /* ViewController.swift */; };
-		AFAFFA4B2B9355F0006881EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA492B9355F0006881EC /* Main.storyboard */; };
 		AFAFFA4D2B9355F1006881EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA4C2B9355F1006881EC /* Assets.xcassets */; };
 		AFAFFA502B9355F1006881EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA4E2B9355F1006881EC /* LaunchScreen.storyboard */; };
 		AFAFFA5B2B9355F1006881EC /* FurnitureShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA5A2B9355F1006881EC /* FurnitureShopTests.swift */; };
 		AFAFFA652B9355F1006881EC /* FurnitureShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA642B9355F1006881EC /* FurnitureShopUITests.swift */; };
 		AFAFFA672B9355F1006881EC /* FurnitureShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA662B9355F1006881EC /* FurnitureShopUITestsLaunchTests.swift */; };
+		AFAFFA752B9356B4006881EC /* FurnitureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA732B9356B4006881EC /* FurnitureVC.swift */; };
+		AFAFFA762B9356B4006881EC /* FurnitureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA742B9356B4006881EC /* FurnitureVC.xib */; };
+		AFAFFA782B937557006881EC /* Ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA772B937557006881EC /* Ex+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,6 @@
 /* Begin PBXFileReference section */
 		AFAFFA402B9355F0006881EC /* FurnitureShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAFFA432B9355F0006881EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFAFFA452B9355F0006881EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFAFFA472B9355F0006881EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFAFFA4A2B9355F0006881EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAFFA4C2B9355F1006881EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAFFA4F2B9355F1006881EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAFFA512B9355F1006881EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,9 @@
 		AFAFFA602B9355F1006881EC /* FurnitureShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurnitureShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAFFA642B9355F1006881EC /* FurnitureShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureShopUITests.swift; sourceTree = "<group>"; };
 		AFAFFA662B9355F1006881EC /* FurnitureShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFAFFA732B9356B4006881EC /* FurnitureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureVC.swift; sourceTree = "<group>"; };
+		AFAFFA742B9356B4006881EC /* FurnitureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FurnitureVC.xib; sourceTree = "<group>"; };
+		AFAFFA772B937557006881EC /* Ex+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				AFAFFA432B9355F0006881EC /* AppDelegate.swift */,
-				AFAFFA452B9355F0006881EC /* SceneDelegate.swift */,
-				AFAFFA472B9355F0006881EC /* ViewController.swift */,
-				AFAFFA492B9355F0006881EC /* Main.storyboard */,
+				AFAFFA732B9356B4006881EC /* FurnitureVC.swift */,
+				AFAFFA742B9356B4006881EC /* FurnitureVC.xib */,
+				AFAFFA772B937557006881EC /* Ex+String.swift */,
 				AFAFFA4C2B9355F1006881EC /* Assets.xcassets */,
 				AFAFFA4E2B9355F1006881EC /* LaunchScreen.storyboard */,
 				AFAFFA512B9355F1006881EC /* Info.plist */,
@@ -232,8 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAFFA502B9355F1006881EC /* LaunchScreen.storyboard in Resources */,
+				AFAFFA762B9356B4006881EC /* FurnitureVC.xib in Resources */,
 				AFAFFA4D2B9355F1006881EC /* Assets.xcassets in Resources */,
-				AFAFFA4B2B9355F0006881EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAFFA482B9355F0006881EC /* ViewController.swift in Sources */,
 				AFAFFA442B9355F0006881EC /* AppDelegate.swift in Sources */,
-				AFAFFA462B9355F0006881EC /* SceneDelegate.swift in Sources */,
+				AFAFFA782B937557006881EC /* Ex+String.swift in Sources */,
+				AFAFFA752B9356B4006881EC /* FurnitureVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFAFFA492B9355F0006881EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFAFFA4A2B9355F0006881EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFAFFA4E2B9355F1006881EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +439,7 @@
 				INFOPLIST_FILE = FurnitureShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +467,7 @@
 				INFOPLIST_FILE = FurnitureShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
